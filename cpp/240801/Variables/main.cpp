@@ -14,7 +14,7 @@ int main() {
     3. int 1 2 3;
     */
 
-   // 정수형
+   // 정수
    int a = 1;  // 4 byte
    short b = 2;  // 2 byte
    long c = 3L;  // 4 byte
@@ -25,12 +25,12 @@ int main() {
    cout << "long c : " << c << " / 크기 : " << sizeof c << "Byte" << endl;
    cout << "long long : " << d << " / 크기 : " << sizeof d << "Byte" << endl;
 
-    // 실수형
+    // 실수
     float e = 3.14f;  // 4 byte
 
     cout << "float e : " << e << " / 크기 : " << sizeof e << "Byte" << endl;
  
-
+    // 작은 문자
     char f = 'f';
     cout << "char f : " << f << endl;
 
